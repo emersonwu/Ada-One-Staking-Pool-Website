@@ -3011,6 +3011,17 @@ input, select, textarea {
 				width: 16em;
 			}
 
+		.spotlight .image-square {
+			display: inline-block;
+			margin-left: 4em;
+			padding: 0.65em;
+		}
+	
+				.spotlight .image-square img {
+					display: block;
+					width: 16em;
+				}
+
 		@media screen and (max-width: 980px) {
 
 			.spotlight {
@@ -3043,6 +3054,15 @@ input, select, textarea {
 					}
 
 				.spotlight .image {
+					-moz-flex: 0 1 auto;
+					-webkit-flex: 0 1 auto;
+					-ms-flex: 0 1 auto;
+					flex: 0 1 auto;
+					margin-left: 0;
+					margin-bottom: 2em;
+				}
+
+				.spotlight .image-square {
 					-moz-flex: 0 1 auto;
 					-webkit-flex: 0 1 auto;
 					-ms-flex: 0 1 auto;
